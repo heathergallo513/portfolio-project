@@ -1,3 +1,13 @@
+:root {
+  --branding-color: #339977;
+  --secondary-color: #cf9fa9;
+  --color-pop: #fae8e0;
+}
+
+body {
+  background: var(--color-pop);
+}
+
 h1 {
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 70px;
@@ -8,6 +18,15 @@ p {
 }
 
 #location {
+  color: var(--secondary-color);
+}
+a:link {
+  color: var(--branding-color);
+  text-decoration: none;
   font-weight: bold;
-  margin-top: 100px;
+}
+a:visited {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-weight: bold;
 }
