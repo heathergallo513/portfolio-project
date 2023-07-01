@@ -30,3 +30,13 @@ a:visited {
   text-decoration: none;
   font-weight: bold;
 }
+
+hr {
+  border: 1px solid var(--branding-color);
+  border-radius: 5px;
+  width: 50%;
+}
+
+#main-img {
+  border-radius: 30px;
+}
