@@ -34,7 +34,7 @@ a:visited {
 hr {
   border: 1px solid var(--branding-color);
   border-radius: 5px;
-  width: 75%;
+  width: 100%;
 }
 
 #main-img {
@@ -43,4 +43,11 @@ hr {
 
 h3 {
   text-align: center;
+}
+.btn-branding {
+  background: var(--secondary-color);
+  color: var(--color-pop);
+  border-radius: 4px;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 20px;
 }
