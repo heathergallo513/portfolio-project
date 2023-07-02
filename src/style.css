@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #339977;
+  --branding-color: #4ac29a;
   --secondary-color: #cf9fa9;
   --color-pop: #fae8e0;
 }
@@ -32,7 +32,7 @@ a:visited {
 }
 
 hr {
-  border: 1px solid var(--branding-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 5px;
   width: 100%;
 }
@@ -52,6 +52,30 @@ h3 {
   font-size: 20px;
 }
 .project img {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
+  border-radius: 30px;
+}
+@media screen and (max-width: 576px) {
+  .col-8.hero-text {
+    max-width: 100%;
+    flex: 0 0 100%;
+    order: 2;
+    text-align: center;
+  }
+  .col-4.hero-img {
+    max-width: 100%;
+    flex: 0 0 100%;
+    order: 1;
+    text-align: center;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  p.font-weight-bold {
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+  }
 }
