@@ -51,3 +51,7 @@ h3 {
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 20px;
 }
+.project img {
+  height: 200px;
+  width: 200px;
+}
