@@ -12,6 +12,11 @@ h1 {
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 70px;
 }
+h2 {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
 p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 20px;
