@@ -34,9 +34,7 @@ p {
 #linkedin {
   margin-top: 50px;
 }
-#wifi {
-  color: var(--secondary-color);
-}
+
 a:link {
   color: var(--color-pop);
   text-decoration: none;
@@ -139,5 +137,11 @@ h4 {
   }
   .description-paragraph {
     margin: auto;
+  }
+  .title-text {
+    margin-left: auto;
+  }
+  .contact-main {
+    text-align: center;
   }
 }
