@@ -31,6 +31,9 @@ p {
 #location {
   color: var(--secondary-color);
 }
+#linkedin {
+  margin-top: 50px;
+}
 #wifi {
   color: var(--secondary-color);
 }
@@ -73,6 +76,7 @@ img.mt-5.img-fluid {
 h3 {
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
 }
 h5 {
   font-family: "Nunito Sans", sans-serif;
@@ -97,6 +101,13 @@ h4 {
   height: 150px;
   width: 150px;
   border-radius: 30px;
+}
+
+.contact-main {
+  line-height: 0.75;
+}
+.title-text {
+  margin-left: 50px;
 }
 @media screen and (max-width: 576px) {
   .col-8.hero-text {
