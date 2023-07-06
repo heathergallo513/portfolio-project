@@ -69,6 +69,7 @@ img.mt-5.img-fluid {
 
 h3 {
   text-align: center;
+  font-family: "Nunito Sans", sans-serif;
 }
 h4 {
   padding-top: 80px;
@@ -111,5 +112,14 @@ h4 {
   }
   p {
     font-size: 18px;
+  }
+  .project-container {
+    text-align: center;
+  }
+  .button-container {
+    margin: auto;
+  }
+  .description-paragraph {
+    margin: auto;
   }
 }
