@@ -82,6 +82,9 @@ h4 {
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 20px;
 }
+.button-container {
+  margin-left: 80px;
+}
 .project img {
   height: 150px;
   width: 150px;
