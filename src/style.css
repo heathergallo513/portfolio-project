@@ -31,6 +31,9 @@ p {
 #location {
   color: var(--secondary-color);
 }
+#wifi {
+  color: var(--secondary-color);
+}
 a:link {
   color: var(--color-pop);
   text-decoration: none;
