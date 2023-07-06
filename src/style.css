@@ -100,13 +100,11 @@ h4 {
   width: 150px;
   border-radius: 30px;
 }
-
 .contact-main {
-  line-height: 0.75;
+  line-height: 1.2;
+  text-align: center;
 }
-.title-text {
-  margin-left: 50px;
-}
+
 @media screen and (max-width: 576px) {
   .col-8.hero-text {
     max-width: 100%;
