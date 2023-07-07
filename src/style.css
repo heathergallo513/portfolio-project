@@ -31,7 +31,13 @@ p {
 #location {
   color: var(--secondary-color);
 }
+.font-weight-bold {
+  margin-top: 50px;
+}
 #linkedin {
+  margin-top: 50px;
+}
+.col-10 {
   margin-top: 50px;
 }
 
@@ -81,7 +87,7 @@ h5 {
   font-size: 28px;
 }
 h4 {
-  padding-top: 80px;
+  padding-top: 130px;
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
 }
@@ -103,6 +109,15 @@ h4 {
 .contact-main {
   line-height: 1.2;
   text-align: center;
+}
+.contact-main {
+  margin-top: 50px;
+}
+.get-in-touch {
+  margin-top: 50px;
+}
+.navbar-custom {
+  background-color: #cf9fa9;
 }
 
 @media screen and (max-width: 576px) {
