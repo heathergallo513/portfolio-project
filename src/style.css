@@ -150,6 +150,7 @@ h4 {
   }
   .description-paragraph {
     margin: auto;
+    width: auto;
   }
   .title-text {
     margin-left: auto;
