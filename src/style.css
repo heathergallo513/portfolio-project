@@ -2,6 +2,7 @@
   --branding-color: #4ac29a;
   --secondary-color: #cf9fa9;
   --color-pop: #fae8e0;
+  --hover-color: #ddbbc2;
 }
 
 body {
@@ -120,6 +121,14 @@ h4 {
 }
 .btn-branding {
   background: var(--secondary-color);
+  color: var(--color-pop);
+  border-radius: 4px;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 20px;
+}
+
+.btn-branding:hover {
+  background: var(--hover-color);
   color: var(--color-pop);
   border-radius: 4px;
   font-family: "Familjen Grotesk", sans-serif;
