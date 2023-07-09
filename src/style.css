@@ -68,11 +68,32 @@ a:visited.nav-link.active {
 a:visited.nav-link {
   color: var(--color-pop);
 }
+a:link.email-link {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited.paragraph-link {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link.footer-email {
+  color: #000000;
+}
+a:visited.footer-email {
+  color: #000000;
+}
 
 hr {
   border: 1px solid var(--secondary-color);
   border-radius: 5px;
   width: 100%;
+}
+.footer-email {
+  margin-top: 70px;
+  font-size: 14px;
 }
 
 #main-img {
