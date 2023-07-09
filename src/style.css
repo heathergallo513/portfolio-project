@@ -62,6 +62,12 @@ a:visited.paragraph-link {
   text-decoration: none;
   font-weight: bold;
 }
+a:visited.nav-link.active {
+  color: var(--color-pop);
+}
+a:visited.nav-link {
+  color: var(--color-pop);
+}
 
 hr {
   border: 1px solid var(--secondary-color);
