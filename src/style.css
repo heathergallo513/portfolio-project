@@ -1,7 +1,7 @@
 :root {
-  --branding-color: #8cbfba;
-  --secondary-color: #9ed9d3;
-  --color-pop: #8cbfba;
+  --branding-color: #4ac29a;
+  --secondary-color: #cf9fa9;
+  --color-pop: #fae8e0;
   --hover-color: #ddbbc2;
 }
 
@@ -154,7 +154,7 @@ h4 {
   margin-top: 50px;
 }
 .navbar-custom {
-  background-color: #8cbfba;
+  background-color: #cf9fa9;
 }
 
 @media screen and (max-width: 576px) {
