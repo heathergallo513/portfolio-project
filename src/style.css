@@ -1,12 +1,13 @@
 :root {
-  --branding-color: #4ac29a;
-  --secondary-color: #cf9fa9;
-  --color-pop: #fae8e0;
+  --branding-color: #f1cdb7;
+  --secondary-color: #c4c9b2;
+  --color-pop: #a5aa94;
   --hover-color: #ddbbc2;
 }
 
 body {
   background: var(--color-pop);
+  color: #eee4d3;
 }
 
 h1 {
@@ -154,7 +155,7 @@ h4 {
   margin-top: 50px;
 }
 .navbar-custom {
-  background-color: #cf9fa9;
+  background-color: #c4c9b2;
 }
 
 @media screen and (max-width: 576px) {
