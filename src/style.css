@@ -31,7 +31,7 @@ p {
 }
 
 #location {
-  color: var(--secondary-color);
+  color: var(--branding-color);
 }
 .font-weight-bold {
   margin-top: 50px;
@@ -54,6 +54,10 @@ a:visited {
   font-weight: bold;
 }
 
+.mb-3 {
+  color: var(--branding-color);
+}
+
 a:link.paragraph-link {
   color: var(--branding-color);
   text-decoration: none;
@@ -65,10 +69,10 @@ a:visited.paragraph-link {
   font-weight: bold;
 }
 a:visited.nav-link.active {
-  color: var(--color-pop);
+  color: var(--branding-color);
 }
 a:visited.nav-link {
-  color: var(--color-pop);
+  color: #eee4d3;
 }
 a:link.email-link {
   color: var(--branding-color);
@@ -121,11 +125,15 @@ h4 {
   font-family: "Nunito Sans", sans-serif;
 }
 .btn-branding {
-  background: var(--secondary-color);
+  background: var(--branding-color);
   color: var(--color-pop);
   border-radius: 4px;
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 20px;
+}
+
+.project-heading {
+  color: var(--branding-color);
 }
 
 .btn-branding:hover {
